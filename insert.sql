@@ -7,9 +7,9 @@ insert into ecommerce.users values(3,1,'Akshay','akshay94@gmail.com','abcdef');
 insert into ecommerce.users values(4,2,'Nikhil','nikhil@gmail.com','abcdef');
 insert into ecommerce.users values(5,1,'Anil','anil@gmail.com','abcdef');
 
---insert into ecommerce.payment_source values(1,'cash');
---insert into ecommerce.payment_source values(2,'card');
---insert into ecommerce.payment_source values(3,'coupons');
+insert into ecommerce.payment_source values(1,'cash');
+insert into ecommerce.payment_source values(2,'card');
+insert into ecommerce.payment_source values(3,'coupons');
 
 insert into ecommerce.orders values(1,1,50,1);
 insert into ecommerce.orders values(2,1,100,1);
