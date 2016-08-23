@@ -19,6 +19,7 @@ type_payment text
 CREATE TABLE ecommerce.orders(
 id int primary key not null,
 user_id int references ecommerce.users(id),
+discount int,
 cost real,
 payment_id int references ecommerce.payment_source(id)
 )

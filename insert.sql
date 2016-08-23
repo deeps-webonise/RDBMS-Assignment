@@ -14,11 +14,11 @@ insert into ecommerce.payment_source values(3,'coupons');
 --Initially the order cost will be 0
 --It will change after we enter values in order_product
 
-insert into ecommerce.orders values(1,1,0,1);
-insert into ecommerce.orders values(2,1,0,1);
-insert into ecommerce.orders values(3,2,0,2);	
-insert into ecommerce.orders values(4,2,0,3);
-insert into ecommerce.orders values(5,3,0,1);
+insert into ecommerce.orders values(1,1,0,0,1);
+insert into ecommerce.orders values(2,1,0,0,1);
+insert into ecommerce.orders values(3,2,0,0,2);	
+insert into ecommerce.orders values(4,2,0,0,3);
+insert into ecommerce.orders values(5,3,0,0,1);
 
 insert into ecommerce.product_color values(0,'only 1 color');
 insert into ecommerce.product_color values(1,'red');
